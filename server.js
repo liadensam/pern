@@ -12,7 +12,7 @@ app.use(cors());//telling express to use the cors middleware
 app.get('/',async (req,res)=>{ //listen to a get request
   const client = new Client()
   await client.connect()
-  const data = await client.query('SELECT * from devices;')
+  const data = await client.query('SELECT * from public.yulelads;')
   res.send(data.rows);
   await client.end()
 })

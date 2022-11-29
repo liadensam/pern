@@ -1,0 +1,119 @@
+:root {
+  --colorWhite: #fff;
+  --colorMainTitle: #f8b229;
+  --colorMainBg: #165b33;
+  --colorHeadingBg: #bb2528;
+  --colorListOddBg: #f7d7d7;
+  --colorBorder: var(--headingBg);
+
+  --padding-30: clamp(1.25rem, -0.875rem + 8.333333vw, 1.875rem);
+  --padding-20: clamp(0.9rem, -0.875rem + 8.333333vw, 1.25rem);
+  --padding-15: clamp(0.625rem, -0.875rem + 8.333333vw, 0.9375rem);
+  --padding-10: clamp(0.3125rem, -0.875rem + 8.333333vw, 0.625rem);
+
+  --fontSize-h1: clamp(1.8rem, -0.875rem + 8.333333vw, 3.5rem);
+  --fontSize-listTitle: clamp(1.2rem, -0.875rem + 8.333333vw, 2rem);
+  --fontSize-ListText: clamp(0.9rem, -0.875rem + 8.333333vw, 1.3rem);
+}
+
+.App {
+  margin: 0;
+  padding: 0 0 var(--padding-30) 0;
+  background: var(--colorMainBg);
+}
+
+.App h1 {
+  margin: 0;
+  padding: var(--padding-30);
+  font-size: var(--fontSize-h1);
+  text-align: center;
+  color: var(--colorMainTitle);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 80vw;
+  margin: 0 auto;
+  background: var(--colorWhite);
+  border: 1px solid var(--colorBorder);
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.list-heading,
+.list-item {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 var(--padding-20);
+}
+
+.list-heading {
+  padding: var(--padding-20) var(--padding-30);
+  margin-bottom: var(--padding-10);
+  background: var(--colorHeadingBg);
+  color: var(--colorMainTitle);
+  font-size: var(--fontSize-listTitle);
+  font-weight: bold;
+  border-bottom: 1px solid var(--colorBorder);
+  border-radius: 12px 12px 0 0;
+}
+
+.list-item {
+  padding: 0 var(--padding-10);
+}
+
+.list-item:nth-child(odd) {
+  background-color: #40865d;
+  color: var(--colorWhite);
+}
+
+.list-item:last-child {
+  margin-bottom: var(--padding-20);
+  border-bottom: none;
+}
+
+.list-item-column {
+  padding: var(--padding-30);
+  font-size: var(--fontSize-ListText);
+  line-height: 1;
+}
+
+.list-heading__title,
+.list-item__title {
+  width: 20%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.list-heading__author,
+.list-item__author {
+  width: 20%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.list-heading__length {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+}
+
+.list-item__length {
+  display: flex;
+  width: 40%;
+}
+
+.list-heading__date {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
+.list-item__date {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
