@@ -1,5 +1,7 @@
 # PERN app with DOCKER 🎄
 
+<br>
+
 I followed [this tutorial](https://faun.pub/the-pern-stack-with-docker-for-beginners-9fa76e574d82) and based on that I created a table listing all the Icelandic 🇮🇸 Yule Lads 🎅🏼 with their date of coming. I added a bit of the Christamssy 🎄 look to it.
 
 <br>
@@ -28,6 +30,8 @@ I followed [this tutorial](https://faun.pub/the-pern-stack-with-docker-for-begin
 ### Run it on your computer
 
 _Note: if you have done Smari´s tutorial, then this should be easy for you_
+
+<br>
 
 - you need to have installed [Desktop Docker](https://www.docker.com/products/docker-desktop/) and connected with your PostreSQL.
 
@@ -69,7 +73,7 @@ node server.js
 
 running on [http://localhost:5001](http://localhost:5001)
 
-
+<br>
 <br>
 
 <img src="/assets/backend.png">
@@ -88,7 +92,7 @@ npm start
 <br>
 
 - if you would like to display data you would need enivronment variables:
-    - create .env file with: 
+    - create `.env` file with and add your info: 
 
 
 ```sh
@@ -101,7 +105,7 @@ PGPORT=
 
 
 
-- in order to display your data from a specific folder you need to change this part of code in `server.js` on the line **15**
+- in order to display your data from a specific folder you need to change this part of code in `server.js` on the line **15** :
 
   `const data = await client.query('SELECT * from public.yulelads;')`
 
