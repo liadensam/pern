@@ -72,7 +72,7 @@ running on [http://localhost:5001](http://localhost:5001)
 
 <br>
 
-<img src="/backend/app.png">
+<img src="/assets/backend.png">
 
 <br>
 
@@ -99,12 +99,6 @@ GPASSWORD=
 PGPORT=
 ```
 
-
-- PGHOST=
-- PGUSER=
-- PGDATABASE=
-- PGPASSWORD=
-- PGPORT=
 
 
 - in order to display your data from a specific folder you need to change this part of code in `server.js` on the line **15**
