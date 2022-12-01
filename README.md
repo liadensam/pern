@@ -91,10 +91,15 @@ npm start
     - create .env file with: 
 
 
-`PGHOST=
+`
+PGHOST=
+<br>
 PGUSER=
+<br>
 PGDATABASE=
+<br>
 PGPASSWORD=
+<br>
 PGPORT=`
 
 
