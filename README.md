@@ -10,11 +10,11 @@ I followed [this tutorial](https://faun.pub/the-pern-stack-with-docker-for-begin
 <br>
 
 
-### Walkthrough
+### My database data
 
 <br>
 
-<img src="/assets/walkthrough.gif">
+<img src="/assets/postresql.png">
 
 <br>
 
@@ -92,15 +92,12 @@ npm start
 
 
 `
-PGHOST=
-<br>
-PGUSER=
-<br>
-PGDATABASE=
-<br>
-PGPASSWORD=
-<br>
-PGPORT=`
+- PGHOST=
+- PGUSER=
+- PGDATABASE=
+- PGPASSWORD=
+- PGPORT=
+`
 
 
 - in order to display your data from a specific folder you need to change this part of code in `server.js` on the line **15**
@@ -108,11 +105,12 @@ PGPORT=`
   `const data = await client.query('SELECT * from public.yulelads;')`
 
 
-### My database data
+
+### Walkthrough
 
 <br>
 
-<img src="/assets/postresql.png">
+<img src="/assets/walkthrough.gif">
 
 <br>
 
