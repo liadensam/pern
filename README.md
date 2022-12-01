@@ -11,6 +11,12 @@ There is a Walkthrough at the end 👇 of thise Readme file.
 <img src="/assets/app.png">
 
 <br>
+
+<br>
+
+<img src="/assets/show.gif">
+
+<br>
 <br>
 
 
