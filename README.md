@@ -7,6 +7,23 @@ I followed [this tutorial](https://faun.pub/the-pern-stack-with-docker-for-begin
 <img src="/assets/app.png">
 
 <br>
+<br>
+
+
+### Walkthrough
+
+<br>
+
+<img src="/assets/walkthrough.gif">
+
+<br>
+
+<br>
+
+<img src="/assets/entries.png">
+
+<br>
+
 
 ### Run it on your computer
 
@@ -52,6 +69,14 @@ node server.js
 
 running on [http://localhost:5001](http://localhost:5001)
 
+
+<br>
+
+<img src="/backend/app.png">
+
+<br>
+
+
 <br>
 
 - Run the front-end on separate another terminal using:
@@ -77,4 +102,18 @@ PGPORT=`
 
   `const data = await client.query('SELECT * from public.yulelads;')`
 
+
+### My database data
+
+<br>
+
+<img src="/assets/postresql.png">
+
+<br>
+
+<br>
+
+<img src="/assets/entries.png">
+
+<br>
 
