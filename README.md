@@ -91,13 +91,20 @@ npm start
     - create .env file with: 
 
 
-`
+```sh
+PGHOST=
+PGUSER=
+PGDATABASE=
+GPASSWORD=
+PGPORT=
+```
+
+
 - PGHOST=
 - PGUSER=
 - PGDATABASE=
 - PGPASSWORD=
 - PGPORT=
-`
 
 
 - in order to display your data from a specific folder you need to change this part of code in `server.js` on the line **15**
