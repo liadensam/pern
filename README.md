@@ -4,7 +4,7 @@
 
 I followed [this tutorial](https://faun.pub/the-pern-stack-with-docker-for-beginners-9fa76e574d82) and based on that I created a table listing all the Icelandic 🇮🇸 Yule Lads 🎅🏼 with their date of coming. I added a bit of the Christamssy 🎄 look to it.
 
-There is a Walkthrough at the end 👇 of thise Readme file (wait for the gifs to load).
+There is a Walkthrough at the end 👇 of this Readme file (wait for the gifs to load).
 
 <br>
 
@@ -31,6 +31,8 @@ There is a Walkthrough at the end 👇 of thise Readme file (wait for the gifs t
 <br>
 
 <img src="/assets/entries.png">
+
+<br>
 
 <br>
 
@@ -117,7 +119,11 @@ PGPORT=
 
   `const data = await client.query('SELECT * from public.yulelads;')`
 
+
 <br>
+
+<br>
+
 
 ### Walkthrough
 
